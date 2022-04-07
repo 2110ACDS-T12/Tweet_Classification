@@ -88,6 +88,8 @@ def getAnalysis(polarity_score):
     
 #convert sentiment 
 ######################################################
+
+st.beta_set_page_config(page_title='Data Ware',page_icon=':smiley')
     
 def main():
     
@@ -106,7 +108,7 @@ def main():
         
         st.info("General Information")
         # You can read a markdown file from supporting resources folder
-        st.markdown("This app classifies whether or not a person believes in climate change, based on their novel tweet data!")
+        st.markdown("This app classifies whether or not a person believes in climate change, based on their novel tweet data!d")
         st.subheader("Raw Twitter data and label")
         if st.checkbox('Show raw data'):
             st.write(raw[['sentiment', 'message']])
