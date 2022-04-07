@@ -88,8 +88,6 @@ def getAnalysis(polarity_score):
     
 #convert sentiment 
 ######################################################
-
-st.beta_set_page_config(page_title='Data Ware',page_icon=':smiley')
     
 def main():
     
