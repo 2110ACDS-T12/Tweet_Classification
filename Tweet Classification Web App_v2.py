@@ -27,7 +27,7 @@ import os
 
 
 #loaded model
-loaded_model = pickle.load(open("/Users/fbarde/Desktop/classify/TM12_1.0_LogReg_model.pkl", "rb"))
+loaded_model = pickle.load(open("TM12_1.0_LogReg_model.pkl", "rb"))
 
 #load dataset
 
