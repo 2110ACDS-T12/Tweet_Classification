@@ -106,7 +106,7 @@ def main():
         
         st.info("General Information")
         # You can read a markdown file from supporting resources folder
-        st.markdown("Some information here")
+        st.markdown("This app classifies whether or not a person believes in climate change, based on their novel tweet data!")
         st.subheader("Raw Twitter data and label")
         if st.checkbox('Show raw data'):
             st.write(raw[['sentiment', 'message']])
