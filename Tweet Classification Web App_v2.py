@@ -90,6 +90,8 @@ def getAnalysis(polarity_score):
 ######################################################
     
 def main():
+    #Page Title
+    st.set_page_config(page_title="TRIDENT", page_icon='dragon')
     
     #title for streamlit
     st.title('Tweet Classification Prediction')
