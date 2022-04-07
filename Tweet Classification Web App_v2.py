@@ -101,10 +101,6 @@ def main():
     st.title('Tweet Classification Prediction')
     st.header('By Data Ware')
 
-
-    with st.sidebar.container():
-        image = Image.open("icon.png")
-        st.image(image, width = use_column_width=True)
     
     ######### body container ############
 
