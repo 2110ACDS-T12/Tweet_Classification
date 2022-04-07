@@ -29,11 +29,11 @@ import os
 
 
 #loaded model
-loaded_model = pickle.load(open("/Users/fbarde/Desktop/classify/TM12_1.0_LogReg_model.pkl", "rb"))
+loaded_model = pickle.load(open("TM12_1.0_LogReg_model.pkl", "rb"))
 
 #load dataset
 
-raw = pd.read_csv("/Users/fbarde/Desktop/classify//train.csv")
+raw = pd.read_csv("train.csv")
 #creating a function for prediction
 
 def tweet_prediction(tweet_input):
