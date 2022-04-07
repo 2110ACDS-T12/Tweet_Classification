@@ -10,6 +10,7 @@ import numpy as np
 import pickle
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
@@ -21,6 +22,9 @@ from textblob import TextBlob
 import streamlit_wordcloud as wordcloud
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 import plotly.express as px
+
+
+
 
 from plotly.subplots import make_subplots
 import re
@@ -96,7 +100,6 @@ def main():
     #title for streamlit
     st.title('Tweet Classification Prediction')
     st.header('By Data Ware')
-    from PIL import Image
 
 
     with st.sidebar.container():
