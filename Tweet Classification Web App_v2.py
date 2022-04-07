@@ -33,7 +33,7 @@ loaded_model = pickle.load(open("trained_model.sav", "rb"))
 
 #load dataset
 
-raw = pd.read_csv("https://github.com/2110ACDS-T12/classification-predict-streamlit-template/blob/master/Project%20File/train.csv")
+raw = pd.read_csv("https://github.com/2110ACDS-T12/classification-predict-streamlit-template/blob/master/Project%20File/train.csv,error_bad_lines=False")
 #creating a function for prediction
 
 def tweet_prediction(tweet_input):
